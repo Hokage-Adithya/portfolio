@@ -101,18 +101,25 @@ const Contact = () => {
       gradient: 'var(--gradient-1)'
     },
     {
+      icon: <FaEnvelope />,
+      title: 'Alternative Email',
+      value: 'adithyahokage0306@gmail.com',
+      link: 'mailto:adithyahokage0306@gmail.com',
+      gradient: 'var(--gradient-2)'
+    },
+    {
       icon: <FaMapMarkerAlt />,
       title: 'Location',
       value: 'India',
       link: '#',
-      gradient: 'var(--gradient-2)'
+      gradient: 'var(--gradient-3)'
     },
     {
       icon: <FaGithub />,
       title: 'GitHub',
       value: '@Hokage-Adithya',
       link: 'https://github.com/Hokage-Adithya',
-      gradient: 'var(--gradient-3)'
+      gradient: 'var(--gradient-1)'
     }
   ]
 

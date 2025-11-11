@@ -33,7 +33,7 @@ const Projects = () => {
       title: 'Real-Time Voice Translator',
       description: 'Full-stack web app for bidirectional voice translation with 13+ languages. Features real-time audio streaming using WebRTC and WebSocket with <3s end-to-end latency. Integrated Google Cloud Speech-to-Text API with concurrent processing.',
       tags: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'WebRTC', 'WebSocket'],
-      github: 'https://github.com/Hokage-Adithya',
+      github: 'https://github.com/Hokage-Adithya/Real-time-translator',
       demo: '#',
       gradient: 'var(--gradient-1)'
     },
@@ -41,7 +41,7 @@ const Projects = () => {
       title: 'CollabDocs - Real-Time Collaboration Platform',
       description: 'Real-time collaborative document editor with live cursor tracking, handling 50+ concurrent users. Features JWT authentication, auto-save, version history, and user permissions. Built with WebSocket architecture and Redis for real-time presence.',
       tags: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'Redis', 'WebSocket'],
-      github: 'https://github.com/Hokage-Adithya',
+      github: 'https://github.com/Hokage-Adithya/collabarative_documentation',
       demo: '#',
       gradient: 'var(--gradient-2)'
     },
