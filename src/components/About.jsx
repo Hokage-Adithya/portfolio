@@ -48,25 +48,25 @@ const About = () => {
 
           <div className="about-text">
             <h3 className="about-subtitle">
-              I'm a <span className="highlight">Frontend Developer</span> with Python expertise
+              I'm a <span className="highlight">Full Stack Developer</span> & ML Engineer
             </h3>
             
             <p className="about-description">
-              I'm passionate about building engaging user interfaces and developing intelligent 
-              Python applications. With a strong foundation in frontend technologies and Python 
-              programming, I create interactive web experiences and innovative automation solutions.
+              I'm passionate about building end-to-end applications from responsive React frontends to 
+              robust FastAPI backends. With expertise in cloud infrastructure (AWS), real-time technologies 
+              (WebSocket, WebRTC), and machine learning, I create scalable, intelligent solutions.
             </p>
 
             <p className="about-description">
-              My journey in tech combines the visual appeal of frontend development with the 
-              power of Python for backend logic, AI/ML projects, and automation. I love exploring 
-              new technologies like voice recognition, machine learning, and building projects 
-              that solve real-world problems.
+              My tech stack spans frontend frameworks (React, TypeScript), backend development 
+              (FastAPI, Flask, Node.js), databases (PostgreSQL, Redis), cloud platforms (AWS, Docker), 
+              and ML frameworks (TensorFlow, scikit-learn). I build production-ready applications 
+              with proper DevOps practices using Docker, GitHub Actions, and Terraform.
             </p>
 
             <p className="about-description">
-              When I'm not coding, you'll find me working on AI projects, exploring new Python 
-              libraries, or contributing to open-source projects that make a difference.
+              When I'm not coding, you'll find me exploring new technologies, optimizing system 
+              architectures, or contributing to open-source projects that make a difference.
             </p>
 
             <div className="about-highlights">

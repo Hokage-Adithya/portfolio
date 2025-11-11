@@ -31,43 +31,43 @@ const Experience = () => {
   const experiences = [
     {
       company: 'Freelance Developer',
-      position: 'Frontend Developer & Python Specialist',
+      position: 'Full Stack Developer & ML Engineer',
       period: '2023 - Present',
       location: 'Remote',
-      description: 'Building innovative web applications and Python-based solutions for various clients and personal projects.',
+      description: 'Building production-grade full-stack applications with modern technologies and deploying to cloud infrastructure.',
       achievements: [
-        'Developed intelligent voice assistant with speech recognition capabilities',
-        'Created machine learning models for gender detection and spam classification',
-        'Built responsive React applications with modern UI/UX design',
-        'Implemented automation scripts to improve workflow efficiency'
+        'Built real-time voice translator with WebRTC, handling 13+ languages with <3s latency',
+        'Developed collaborative document platform supporting 50+ concurrent users via WebSocket',
+        'Architected microservices with FastAPI, PostgreSQL, Redis, and Docker containerization',
+        'Implemented CI/CD pipelines using GitHub Actions and Infrastructure as Code with Terraform'
       ],
       gradient: 'var(--gradient-1)'
     },
     {
       company: 'Personal Projects & Learning',
-      position: 'Full Stack Development Student',
+      position: 'Full Stack Development',
       period: '2022 - 2023',
       location: 'Self-Directed',
-      description: 'Focused on learning frontend technologies and Python for AI/ML applications.',
+      description: 'Mastered full-stack development from React frontends to FastAPI backends with cloud deployment.',
       achievements: [
-        'Mastered React, JavaScript, HTML5, and CSS3 fundamentals',
-        'Explored machine learning concepts and natural language processing',
-        'Built 8+ projects showcasing various technical skills',
-        'Contributed to open-source projects and community learning'
+        'Built end-to-end applications using React, TypeScript, FastAPI, and PostgreSQL',
+        'Implemented real-time features using WebSocket and WebRTC technologies',
+        'Deployed applications on AWS with Docker, ECS, RDS, and CloudFront',
+        'Created machine learning models with TensorFlow and scikit-learn'
       ],
       gradient: 'var(--gradient-2)'
     },
     {
       company: 'Technology Exploration',
-      position: 'Aspiring Developer',
+      position: 'Software Development Journey',
       period: '2021 - 2022',
       location: 'Self-Learning',
-      description: 'Started journey into programming with Python and web development basics.',
+      description: 'Started journey with Python and web development, building foundation in programming.',
       achievements: [
-        'Learned Python programming and basic web development',
-        'Created first automation scripts and simple web pages',
-        'Explored various tech domains to find passion areas',
-        'Built foundation in computer science fundamentals'
+        'Learned Python programming and web development fundamentals',
+        'Built voice assistant and ML projects (gender detection, spam classification)',
+        'Explored frontend frameworks and backend development',
+        'Developed strong foundation in computer science and software engineering'
       ],
       gradient: 'var(--gradient-3)'
     }

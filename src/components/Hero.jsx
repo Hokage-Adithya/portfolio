@@ -34,12 +34,12 @@ const Hero = () => {
           </h1>
           
           <h2 className="hero-subtitle">
-            <span className="typing-text">Frontend Developer & Python Enthusiast</span>
+            <span className="typing-text">Full Stack Developer & ML Engineer</span>
           </h2>
           
           <p className="hero-description">
-            I build engaging user interfaces and develop innovative Python applications.
-            Passionate about creating intelligent solutions and interactive web experiences.
+            I build scalable web applications and intelligent AI solutions using modern technologies.
+            From React frontends to FastAPI backends, cloud infrastructure to machine learning models.
           </p>
 
           <div className="hero-actions">

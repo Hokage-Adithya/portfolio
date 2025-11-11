@@ -37,36 +37,73 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: 'Frontend',
+      title: 'Frontend Development',
       gradient: 'var(--gradient-1)',
       skills: [
-        { name: 'React', icon: <FaReact />, level: 85 },
-        { name: 'JavaScript', icon: <FaJs />, level: 88 },
+        { name: 'React.js', icon: <FaReact />, level: 90 },
+        { name: 'TypeScript', icon: <SiTypescript />, level: 85 },
+        { name: 'JavaScript', icon: <FaJs />, level: 92 },
         { name: 'HTML5', icon: <FaHtml5 />, level: 95 },
         { name: 'CSS3', icon: <FaCss3Alt />, level: 90 },
-        { name: 'Tailwind', icon: <SiTailwindcss />, level: 80 },
+        { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 85 },
       ]
     },
     {
-      title: 'Python & ML',
+      title: 'Backend Development',
       gradient: 'var(--gradient-2)',
       skills: [
-        { name: 'Python', icon: <FaPython />, level: 92 },
-        { name: 'Machine Learning', icon: <FaDatabase />, level: 78 },
-        { name: 'Data Analysis', icon: <FaDatabase />, level: 75 },
-        { name: 'Voice Recognition', icon: <FaPython />, level: 82 },
-        { name: 'AI Projects', icon: <FaPython />, level: 80 },
+        { name: 'FastAPI', icon: <FaPython />, level: 88 },
+        { name: 'Flask', icon: <FaPython />, level: 85 },
+        { name: 'Node.js', icon: <FaNodeJs />, level: 82 },
+        { name: 'REST APIs', icon: <FaDatabase />, level: 90 },
+        { name: 'WebSocket', icon: <FaDatabase />, level: 85 },
+        { name: 'JWT Auth', icon: <FaDatabase />, level: 88 },
       ]
     },
     {
-      title: 'Tools & Others',
+      title: 'Programming Languages',
       gradient: 'var(--gradient-3)',
       skills: [
-        { name: 'Git', icon: <FaGitAlt />, level: 85 },
-        { name: 'GitHub', icon: <FaGitAlt />, level: 88 },
-        { name: 'VS Code', icon: <FaDatabase />, level: 90 },
-        { name: 'Jupyter', icon: <FaDatabase />, level: 82 },
-        { name: 'Node.js', icon: <FaNodeJs />, level: 75 },
+        { name: 'Python', icon: <FaPython />, level: 95 },
+        { name: 'TypeScript', icon: <SiTypescript />, level: 85 },
+        { name: 'JavaScript', icon: <FaJs />, level: 92 },
+        { name: 'Java', icon: <FaDatabase />, level: 75 },
+        { name: 'C', icon: <FaDatabase />, level: 70 },
+        { name: 'Golang', icon: <FaDatabase />, level: 72 },
+      ]
+    },
+    {
+      title: 'Databases & Cloud',
+      gradient: 'var(--gradient-1)',
+      skills: [
+        { name: 'PostgreSQL', icon: <SiPostgresql />, level: 88 },
+        { name: 'MySQL', icon: <SiMongodb />, level: 85 },
+        { name: 'Redis', icon: <SiRedis />, level: 82 },
+        { name: 'AWS', icon: <FaAws />, level: 80 },
+        { name: 'Docker', icon: <FaDocker />, level: 85 },
+      ]
+    },
+    {
+      title: 'Machine Learning & AI',
+      gradient: 'var(--gradient-2)',
+      skills: [
+        { name: 'TensorFlow', icon: <FaPython />, level: 82 },
+        { name: 'scikit-learn', icon: <FaPython />, level: 85 },
+        { name: 'NLP', icon: <FaPython />, level: 80 },
+        { name: 'Deep Learning', icon: <FaPython />, level: 78 },
+        { name: 'pandas/numpy', icon: <FaPython />, level: 90 },
+      ]
+    },
+    {
+      title: 'DevOps & Tools',
+      gradient: 'var(--gradient-3)',
+      skills: [
+        { name: 'Git', icon: <FaGitAlt />, level: 92 },
+        { name: 'GitHub Actions', icon: <FaGitAlt />, level: 85 },
+        { name: 'Docker', icon: <FaDocker />, level: 85 },
+        { name: 'Nginx', icon: <FaDatabase />, level: 75 },
+        { name: 'Linux/Unix', icon: <FaDatabase />, level: 80 },
+        { name: 'Terraform', icon: <FaAws />, level: 70 },
       ]
     }
   ]

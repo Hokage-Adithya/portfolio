@@ -5,7 +5,7 @@ React developer portfolio with Vite
 
 ## Developer Profile
 - **Name**: Adithya Sharma
-- **Role**: Frontend Developer & Python Enthusiast
+- **Role**: Full Stack Developer & ML Engineer
 - **Email**: adithyasharma2005@gmail.com
 - **GitHub**: https://github.com/Hokage-Adithya
 - **LinkedIn**: https://www.linkedin.com/in/adithya-sharma-8bb11b26a/
